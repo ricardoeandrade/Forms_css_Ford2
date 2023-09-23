@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="stile.css">
+    
+</head>
+<body>
+    <header>
+        <div class="título">
+          <h1>
+            Página de criação de Formulários
+         </h1>
+        </div> 
+
+    </header>
+    <!-- Primeiro formulário usando label e input -->
+    <form class="form01">
+        <label for="Primeiro Nome">Nome</label>
+        <input type="text" nome="Nome01" id="" placeholder="digite seu nome"><br>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="Nome02" id"" placeholder="digite seu sobrenome">
+
+    </form>
+
+    <hr>
+
+         <!-- form para realizar o cadastro de uma pessoa -->
+    
+         <form class="form02">
+            <label for="primeiro nome">Nome</label>
+            <input type="text" name="nomeUser" id="" placeholder=" Informe seu primeiro nome....">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="Nome02" id"" placeholder="digite seu sobrenome">
+            <label for="email">email</label>
+            <input type="email" name="emailUser" id"" placeholder= " informe seu melhor email">  
+            <label for="idade">Data de nascimento</label>
+            <input type="date" name="idade do usário">
+            <h4> informe o seu genero</h4>
+            <input type="radio" name="genero">
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero">
+            <label for="genero"> Feminino</label>
+            <label for="comentário">Comentário</label>
+            <textarea name="" id="" cols="60" rows="10"placeholder="Descreva sobre você"></textarea>
+            <button type="submit" onclick="clique()">Cadastre-se</button>
+           
+         </form>
+
+         <script>
+            function clique() {
+                alert("usuário cadastrado com sucesso");
+            }
+         </script>
+
+
+</body>
+</html>
